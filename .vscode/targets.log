@@ -1,0 +1,1163 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.81
+# Copyright (C) 2006  Free Software Foundation, Inc.
+# This is free software; see the source for copying conditions.
+# There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
+
+# This program built for i386-apple-darwin11.3.0
+ 
+
+# Make data base, printed on Tue Aug 30 09:43:03 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# makefile (from `Makefile', line 51)
+CONFIG_BIGNUM = y
+# makefile (from `Makefile', line 338)
+HELLO_MODULE_OPTS = -fno-string-normalize -fno-map -fno-promise -fno-typedarray -fno-typedarray -fno-regexp -fno-json -fno-eval -fno-proxy -fno-date -m
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# makefile (from `Makefile', line 64)
+EXE = 
+# automatic
+@F = $(notdir $@)
+# makefile
+CURDIR := /Users/cnono/c_projects/X-QuickJS
+# makefile
+SHELL = /bin/sh
+# environment
+VSCODE_NLS_CONFIG = {"locale":"zh-cn","availableLanguages":{},"_languagePackSupport":true}
+# environment
+_ = /usr/bin/make
+# makefile (from `Makefile', line 110)
+CFLAGS = -g -Wall -MMD -MF $(OBJDIR)/$(@F).d -Wextra -Wno-sign-compare -Wno-missing-field-initializers -Wundef -Wuninitialized -Wunused -Wno-unused-parameter -Wwrite-strings -Wchar-subscripts -funsigned-char -MMD -MF $(OBJDIR)/$(@F).d $(DEFINES)
+# makefile (from `Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# makefile (from `Makefile', line 63)
+CROSS_PREFIX = 
+# environment
+__CFBundleIdentifier = com.microsoft.VSCode
+# environment
+INFOPATH = /opt/homebrew/share/info:
+# makefile (from `Makefile', line 206)
+QJSC_DEFINES := -DCONFIG_CC=\"clang\" -DCONFIG_PREFIX=\"/usr/local\" -DCONFIG_LTO
+# makefile (from `Makefile', line 361)
+DOCS = doc/quickjs.pdf doc/quickjs.html doc/jsbignum.pdf doc/jsbignum.html 
+# environment
+VSCODE_CWD = /
+# environment
+PATH = /opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/TeX/texbin:/Library/Apple/usr/bin
+# makefile (from `Makefile', line 67)
+HOST_CC = clang
+# makefile (from `Makefile', line 31)
+CONFIG_LTO = y
+# environment
+LSCOLORS = Gxfxcxdxbxegedabagacad
+# makefile (from `Makefile', line 114)
+CFLAGS_NOLTO := -g -Wall -MMD -MF .obj/.d -Wextra -Wno-sign-compare -Wno-missing-field-initializers -Wundef -Wuninitialized -Wunused -Wno-unused-parameter -Wwrite-strings -Wchar-subscripts -funsigned-char -MMD -MF .obj/.d -D_GNU_SOURCE -DCONFIG_VERSION=\"2021-03-27\" -DCONFIG_BIGNUM -O2
+# makefile (from `Makefile', line 142)
+QJSC = ./qjsc$(EXE)
+# makefile (from `Makefile', line 337)
+HELLO_MODULE_SRCS = examples/hello_module.js
+# makefile (from `Makefile', line 322)
+HELLO_OPTS = -fno-string-normalize -fno-map -fno-promise -fno-typedarray -fno-typedarray -fno-regexp -fno-json -fno-eval -fno-proxy -fno-date -fno-module-loader -fno-bigint
+# makefile (from `Makefile', line 132)
+LDEXPORT = -rdynamic
+# makefile (from `Makefile', line 79)
+AR = $(CROSS_PREFIX)ar
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# makefile (from `Makefile', line 119)
+LDFLAGS = -g -flto
+# default
+.FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
+# makefile (from `Makefile', line 224)
+LTOEXT = .lto
+# environment
+SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.XjonGfQGnH/Listeners
+# automatic
+%F = $(notdir $%)
+# makefile (from `Makefile', line 118)
+CFLAGS_OPT = $(CFLAGS) -O2 -flto
+# environment
+PWD = /Users/cnono/c_projects/X-QuickJS
+# environment
+HOMEBREW_CELLAR = /opt/homebrew/Cellar
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+MANPATH = /opt/homebrew/share/man::
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /Users/cnono
+# default
+MAKEFILEPATH = $(shell /usr/bin/xcode-select -print-path 2>/dev/null || echo /Developer)/Makefiles
+# makefile (from `Makefile', line 104)
+DEFINES := -D_GNU_SOURCE -DCONFIG_VERSION=\"2021-03-27\" -DCONFIG_BIGNUM
+# environment
+VSCODE_CODE_CACHE_PATH = /Users/cnono/Library/Application Support/Code/CachedData/e4503b30fc78200f846c62cf8091b76ff5547662
+# environment
+LOGNAME = cnono
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+ZSH = /Users/cnono/.oh-my-zsh
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# makefile (from `Makefile', line 174)
+QJS_OBJS = $(OBJDIR)/qjs.o $(OBJDIR)/repl.o $(QJS_LIB_OBJS) $(OBJDIR)/qjscalc.o
+# environment
+XPC_FLAGS = 0x0
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+SHLVL = 1
+# makefile (from `Makefile', line 68)
+CC = $(CROSS_PREFIX)clang
+# default
+MAKE_VERSION := 3.81
+# environment
+USER = cnono
+# makefile
+.DEFAULT_GOAL := all
+# environment
+LESS = -R
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# makefile (from `Makefile', line 111)
+CFLAGS_DEBUG = $(CFLAGS) -O0
+# default
+MAKE_COMMAND := /Library/Developer/CommandLineTools/usr/bin/make
+# makefile (from `Makefile', line 44)
+prefix = /usr/local
+# default
+.VARIABLES := 
+# environment
+TMPDIR = /var/folders/4r/5gz0xtqd5nqbr7qz_5vzjbn80000gn/T/
+# automatic
+*F = $(notdir $*)
+# makefile (from `Makefile', line 26)
+CONFIG_DARWIN = y
+# environment
+VSCODE_IPC_HOOK = /Users/cnono/Library/Application Support/Code/1.70.2-main.sock
+# environment
+MallocNanoZone = 0
+# makefile (from `Makefile', line 39)
+CONFIG_CLANG = y
+# makefile
+MAKEFLAGS = Rrqp
+# environment
+MFLAGS = -Rrqp
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# makefile (from `Makefile', line 177)
+HOST_LIBS = -lm -ldl -lpthread
+# environment
+XPC_SERVICE_NAME = application.com.microsoft.VSCode.44304622.44304628
+# environment
+HOMEBREW_PREFIX = /opt/homebrew
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# automatic
++F = $(notdir $+)
+# makefile (from `Makefile', line 317)
+HELLO_SRCS = examples/hello.js
+# makefile (from `Makefile', line 98)
+STRIP = $(CROSS_PREFIX)strip
+# environment
+HOMEBREW_REPOSITORY = /opt/homebrew
+# environment
+__CF_USER_TEXT_ENCODING = 0x1F5:0x19:0x34
+# environment
+COMMAND_MODE = unix2003
+# makefile (from `Makefile', line 40)
+CONFIG_DEFAULT_AR = y
+# default
+MAKEFILES := 
+# makefile (from `Makefile', line 141)
+QJSC_CC = $(CC)
+# automatic
+<F = $(notdir $<)
+# makefile (from `Makefile', line 160)
+PROGS = qjs$(EXE) qjsc$(EXE) run-test262 qjscalc libquickjs.a libquickjs.lto.a examples/hello examples/hello_module examples/test_fib
+# makefile (from `Makefile', line 53)
+OBJDIR = .obj
+# makefile (from `Makefile', line 173)
+QJS_LIB_OBJS = $(OBJDIR)/quickjs.o $(OBJDIR)/libregexp.o $(OBJDIR)/libunicode.o $(OBJDIR)/cutils.o $(OBJDIR)/quickjs-libc.o $(OBJDIR)/libbf.o 
+# environment
+PAGER = less
+# environment
+LC_ALL = C
+# makefile (from `Makefile', line 208)
+QJSC_HOST_DEFINES := -DCONFIG_CC=\"clang\" -DCONFIG_PREFIX=\"/usr/local\"
+# makefile (from `Makefile', line 182)
+LIBS = -lm -ldl -lpthread $(EXTRA_LIBS)
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# environment
+MAKELEVEL := 0
+# environment
+LANG = C
+# environment
+VSCODE_PID = 731
+# makefile (from `Makefile', line 117)
+CFLAGS_SMALL = $(CFLAGS) -Os -flto
+# variable set hash-table stats:
+# Load=102/1024=10%, Rehash=0, Collisions=10/379=3%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# unicode: could not be stat'd.
+# .obj: could not be stat'd.
+# . (device 16777234, inode 44610830): 47 files, no impossibilities.
+# doc (device 16777234, inode 44610989): No files, no impossibilities so far.
+
+# 47 files, no impossibilities in 4 directories.
+
+# Implicit Rules
+
+.obj/%.o: %.c | .obj
+#  commands to execute (from `Makefile', line 263):
+	$(CC) $(CFLAGS_OPT) -c -o $@ $<
+	
+
+.obj/%.host.o: %.c | .obj
+#  commands to execute (from `Makefile', line 266):
+	$(HOST_CC) $(CFLAGS_OPT) -c -o $@ $<
+	
+
+.obj/%.pic.o: %.c | .obj
+#  commands to execute (from `Makefile', line 269):
+	$(CC) $(CFLAGS_OPT) -fPIC -DJS_SHARED_LIBRARY -c -o $@ $<
+	
+
+.obj/%.nolto.o: %.c | .obj
+#  commands to execute (from `Makefile', line 272):
+	$(CC) $(CFLAGS_NOLTO) -c -o $@ $<
+	
+
+.obj/%.m32.o: %.c | .obj
+#  commands to execute (from `Makefile', line 275):
+	$(CC) -m32 $(CFLAGS_OPT) -c -o $@ $<
+	
+
+.obj/%.m32s.o: %.c | .obj
+#  commands to execute (from `Makefile', line 278):
+	$(CC) -m32 $(CFLAGS_SMALL) -c -o $@ $<
+	
+
+.obj/%.debug.o: %.c | .obj
+#  commands to execute (from `Makefile', line 281):
+	$(CC) $(CFLAGS_DEBUG) -c -o $@ $<
+	
+
+.obj/%.check.o: %.c | .obj
+#  commands to execute (from `Makefile', line 284):
+	$(CC) $(CFLAGS) -DCONFIG_CHECK_JSVALUE -c -o $@ $<
+	
+
+doc/%.pdf: doc/%.texi
+ 
+#  commands to execute (from `Makefile', line 369):
+	texi2pdf --clean -o $@ -q $<
+	
+
+doc/%.html.pre: doc/%.texi
+#  commands to execute (from `Makefile', line 372):
+	makeinfo --html --no-headers --no-split --number-sections -o $@ $<
+	
+
+doc/%.html: doc/%.html.pre
+#  commands to execute (from `Makefile', line 375):
+	sed -e 's|</style>|</style>\n<meta name="viewport" content="width=device-width, initial-scale=1.0">|' < $< > $@
+	
+
+# 11 implicit rules, 0 (0.0%) terminal.
+
+# Files
+
+# Not a target:
+.obj/quickjs.nolto.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+test_fib.c: qjsc examples/test_fib.js
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 347):
+	$(QJSC) -e -M examples/fib.so,fib -m -o $@ examples/test_fib.js
+	
+
+clean_doc:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 366):
+	rm -f $(DOCS)
+	
+
+# Not a target:
+libregexp.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.obj/libregexp.debug.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+testall-32: all test-32 microbench-32 test2o-32 test2-32
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+bench-v8: qjs
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 464):
+	make -C tests/bench-v8
+	./qjs -d tests/bench-v8/combined.js
+	
+
+# Not a target:
+.obj/run-test262.m32.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+examples/hello_module: qjsc libquickjs.lto.a examples/hello_module.js
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 342):
+	$(QJSC) $(HELLO_MODULE_OPTS) -o $@ $(HELLO_MODULE_SRCS)
+	
+
+test2-32: run-test262-32
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 449):
+	time ./run-test262-32 -m -c test262.conf -a
+	
+
+all: .obj .obj/quickjs.check.o .obj/qjs.check.o qjs qjsc run-test262 qjscalc libquickjs.a libquickjs.lto.a examples/hello examples/hello_module examples/test_fib
+#  Command-line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/5=0%
+
+# Not a target:
+.obj/libregexp.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.obj/examples/fib.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.obj/cutils.m32s.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+repl.c: qjsc repl.js
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 238):
+	$(QJSC) -c -o $@ -m repl.js
+	
+
+# Not a target:
+.obj/libunicode.m32s.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+examples/test_fib: .obj/test_fib.o .obj/examples/fib.o libquickjs.lto.a
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 350):
+	$(CC) $(LDFLAGS) -o $@ $^ $(LIBS)
+	
+
+# Not a target:
+.obj/libbf.nolto.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+libquickjs.lto.a: .obj/quickjs.o .obj/libregexp.o .obj/libunicode.o .obj/cutils.o .obj/quickjs-libc.o .obj/libbf.o
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 230):
+	$(AR) rcs $@ $^
+	
+
+# Not a target:
+.obj/libregexp.m32.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.obj/quickjs-libc.nolto.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+qjscalc.c: qjsc qjscalc.js
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 241):
+	$(QJSC) -fbignum -c -o $@ qjscalc.js
+	
+
+# Not a target:
+cutils.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.obj/quickjs.debug.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+test2o-32: run-test262-32
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 436):
+	time ./run-test262-32 -m -c test262o.conf
+	
+
+# Not a target:
+.obj/tests/bjson.pic.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+run-test262-debug: .obj/run-test262.debug.o .obj/quickjs.debug.o .obj/libregexp.debug.o .obj/libunicode.debug.o .obj/cutils.debug.o .obj/quickjs-libc.debug.o .obj/libbf.debug.o
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 255):
+	$(CC) $(LDFLAGS) -o $@ $^ $(LIBS)
+	
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-08-17 20:52:02
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+unicode_gen_def.h:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+test2-update: run-test262
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 452):
+	./run-test262 -u -c test262.conf -a
+	
+
+# Not a target:
+.obj/repl.debug.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.obj/quickjs.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+run-test262: .obj/run-test262.o .obj/quickjs.o .obj/libregexp.o .obj/libunicode.o .obj/cutils.o .obj/quickjs-libc.o .obj/libbf.o
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 252):
+	$(CC) $(LDFLAGS) -o $@ $^ $(LIBS)
+	
+
+# Not a target:
+.obj/qjscalc.debug.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+test: qjs
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 388):
+	./qjs tests/test_closure.js
+	./qjs tests/test_language.js
+	./qjs tests/test_builtin.js
+	./qjs tests/test_loop.js
+	./qjs tests/test_std.js
+	./qjs tests/test_worker.js
+	./qjs --bignum tests/test_op_overloading.js
+	./qjs --bignum tests/test_bignum.js
+	./qjs --qjscalc tests/test_qjscalc.js
+	
+
+# Not a target:
+.obj/qjsc.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+# makefile (from `Makefile', line 210)
+# CFLAGS += $(QJSC_DEFINES)
+# variable set hash-table stats:
+# Load=1/32=3%, Rehash=0, Collisions=0/2=0%
+
+ 
+# Not a target:
+.obj/cutils.nolto.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.obj/quickjs.m32.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+test2o-update: run-test262
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 439):
+	./run-test262 -u -c test262o.conf
+	
+
+# Not a target:
+.obj/libunicode.nolto.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.obj/libbf.debug.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.obj/repl.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.obj/qjs.debug.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.obj/qjscalc.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+microbench-32: qjs32
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 429):
+	./qjs32 tests/microbench.js
+	
+
+# Not a target:
+.obj/quickjs-libc.debug.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.obj/repl.m32.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.obj/qjscalc.m32.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.obj/libbf.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.obj/quickjs.check.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+libquickjs.a: .obj/quickjs.nolto.o .obj/libregexp.nolto.o .obj/libunicode.nolto.o .obj/cutils.nolto.o .obj/quickjs-libc.nolto.o .obj/libbf.nolto.o
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 234):
+	$(AR) rcs $@ $^
+	
+
+examples/point.so: .obj/examples/point.pic.o
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 356):
+	$(CC) $(LDFLAGS) -shared -o $@ $^
+	
+
+# Not a target:
+.obj/quickjs-libc.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.obj/libbf.m32.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.obj/qjs.m32.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.obj/qjsc.host.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+# makefile (from `Makefile', line 211)
+# CFLAGS += $(QJSC_HOST_DEFINES)
+# variable set hash-table stats:
+# Load=1/32=3%, Rehash=0, Collisions=0/2=0%
+
+.obj:
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: `'
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := .obj
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := 
+# automatic
+# | := 
+# automatic
+# < := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/13=8%
+#  commands to execute (from `Makefile', line 185):
+	mkdir -p $(OBJDIR) $(OBJDIR)/examples $(OBJDIR)/tests
+	
+
+# Not a target:
+.obj/quickjs-libc.m32.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.obj/hello.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+testall: all test microbench test2o test2
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.obj/libregexp.m32s.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+stats: qjs qjs32
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 422):
+	./qjs -qd
+	./qjs32 -qd
+	
+
+examples/fib.so: .obj/examples/fib.pic.o
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 353):
+	$(CC) $(LDFLAGS) -shared -o $@ $^
+	
+
+testall-complete: testall testall-32
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.obj/qjscalc.m32s.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+regexp_test: libregexp.c libunicode.c cutils.c
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 287):
+	$(CC) $(LDFLAGS) $(CFLAGS) -DTEST -o $@ libregexp.c libunicode.c cutils.c $(LIBS)
+	
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+tests/bjson.so: .obj/tests/bjson.pic.o
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 468):
+	$(CC) $(LDFLAGS) -shared -o $@ $^ $(LIBS)
+	
+
+# Not a target:
+.obj/cutils.debug.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+repl.js:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+libunicode.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.obj/qjs.check.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.obj/libunicode.debug.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.obj/cutils.host.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.obj/cutils.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clean:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 293):
+	rm -f repl.c qjscalc.c out.c
+	rm -f *.a *.o *.d *~ unicode_gen regexp_test $(PROGS)
+	rm -f hello.c test_fib.c
+	rm -f examples/*.so tests/*.so
+	rm -rf $(OBJDIR)/ *.dSYM/ qjs-debug
+	rm -rf run-test262-debug run-test262-32
+	
+
+# Not a target:
+.obj/qjs.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.obj/libunicode.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+examples/hello.js:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+build_doc: doc/quickjs.pdf doc/quickjs.html doc/jsbignum.pdf doc/jsbignum.html
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+qjscalc.js:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+ 
+hello.c: qjsc examples/hello.js
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 326):
+	$(QJSC) -e $(HELLO_OPTS) -o $@ $(HELLO_SRCS)
+	
+
+test2: run-test262
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 446):
+	time ./run-test262 -m -c test262.conf -a
+	
+
+# Not a target:
+.obj/cutils.m32.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.obj/libunicode.m32.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.obj/quickjs.m32s.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+test2o: run-test262
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 433):
+	time ./run-test262 -m -c test262o.conf
+	
+
+qjs32_s: .obj/qjs.m32s.o .obj/repl.m32s.o .obj/quickjs.m32s.o .obj/libregexp.m32s.o .obj/libunicode.m32s.o .obj/cutils.m32s.o .obj/quickjs-libc.m32s.o .obj/libbf.m32s.o .obj/qjscalc.m32s.o
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 217):
+	$(CC) -m32 $(LDFLAGS) -o $@ $^ $(LIBS)
+	@size $@
+	
+
+# Not a target:
+doc/quickjs.pdf:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.obj/libregexp.nolto.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+test-32:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+qjsc: .obj/qjsc.o .obj/quickjs.o .obj/libregexp.o .obj/libunicode.o .obj/cutils.o .obj/quickjs-libc.o .obj/libbf.o
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 194):
+	$(CC) $(LDFLAGS) -o $@ $^ $(LIBS)
+	
+
+# Not a target:
+.obj/repl.m32s.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.obj/test_fib.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+test2-default: run-test262
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 443):
+	time ./run-test262 -m -c test262.conf
+	
+
+qjs-debug: .obj/qjs.debug.o .obj/repl.debug.o .obj/quickjs.debug.o .obj/libregexp.debug.o .obj/libunicode.debug.o .obj/cutils.debug.o .obj/quickjs-libc.debug.o .obj/libbf.debug.o .obj/qjscalc.debug.o
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 191):
+	$(CC) $(LDFLAGS) -o $@ $^ $(LIBS)
+	
+
+# Not a target:
+doc/jsbignum.pdf:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+qjscalc: qjs
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 221):
+	ln -sf $< $@
+	
+
+examples/hello: .obj/hello.o .obj/quickjs.o .obj/libregexp.o .obj/libunicode.o .obj/cutils.o .obj/quickjs-libc.o .obj/libbf.o
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 333):
+	$(CC) $(LDFLAGS) -o $@ $^ $(LIBS)
+	
+
+run-test262-32: .obj/run-test262.m32.o .obj/quickjs.m32.o .obj/libregexp.m32.o .obj/libunicode.m32.o .obj/cutils.m32.o .obj/quickjs-libc.m32.o .obj/libbf.m32.o
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 258):
+	$(CC) -m32 $(LDFLAGS) -o $@ $^ $(LIBS)
+	
+
+# Not a target:
+doc/quickjs.html:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+unicode_gen: .obj/unicode_gen.host.o .obj/cutils.host.o libunicode.c unicode_gen_def.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 290):
+	$(HOST_CC) $(LDFLAGS) $(CFLAGS) -o $@ $(OBJDIR)/unicode_gen.host.o $(OBJDIR)/cutils.host.o
+	
+
+# Not a target:
+.obj/examples/point.pic.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.obj/libbf.m32s.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.obj/qjs.m32s.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+test2-check: run-test262
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 455):
+	time ./run-test262 -m -c test262.conf -E -a
+	
+
+microbench: qjs
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 426):
+	./qjs tests/microbench.js
+	
+
+# Not a target:
+.obj/run-test262.debug.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+examples/hello_module.js:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.obj/quickjs-libc.m32s.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+doc/jsbignum.html:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+qjs: .obj/qjs.o .obj/repl.o .obj/quickjs.o .obj/libregexp.o .obj/libunicode.o .obj/cutils.o .obj/quickjs-libc.o .obj/libbf.o .obj/qjscalc.o
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 188):
+	$(CC) $(LDFLAGS) $(LDEXPORT) -o $@ $^ $(LIBS)
+	
+
+# Not a target:
+.obj/unicode_gen.host.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+qjs32: .obj/qjs.m32.o .obj/repl.m32.o .obj/quickjs.m32.o .obj/libregexp.m32.o .obj/libunicode.m32.o .obj/cutils.m32.o .obj/quickjs-libc.m32.o .obj/libbf.m32.o .obj/qjscalc.m32.o
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 214):
+	$(CC) -m32 $(LDFLAGS) $(LDEXPORT) -o $@ $^ $(LIBS)
+	
+
+# Not a target:
+.obj/examples/fib.pic.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+examples/test_fib.js:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+install: all
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 301):
+	mkdir -p "$(DESTDIR)$(prefix)/bin"
+	$(STRIP) qjs qjsc
+	install -m755 qjs qjsc "$(DESTDIR)$(prefix)/bin"
+	ln -sf qjs "$(DESTDIR)$(prefix)/bin/qjscalc"
+	mkdir -p "$(DESTDIR)$(prefix)/lib/quickjs"
+	install -m644 libquickjs.a "$(DESTDIR)$(prefix)/lib/quickjs"
+	install -m644 libquickjs.lto.a "$(DESTDIR)$(prefix)/lib/quickjs"
+	mkdir -p "$(DESTDIR)$(prefix)/include/quickjs"
+	install -m644 quickjs.h quickjs-libc.h "$(DESTDIR)$(prefix)/include/quickjs"
+	
+
+# Not a target:
+.obj/run-test262.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# files hash-table stats:
+ 
+# Load=119/1024=12%, Rehash=0, Collisions=12/286=4%
+# VPATH Search Paths
+
+# No `vpath' search paths.
+
+# No general (`VPATH' variable) search path.
+
+# # of strings in strcache: 1
+# # of strcache buffers: 1
+# strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
+# strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
+
+# Finished Make data base on Tue Aug 30 09:43:03 2022
+
+ 

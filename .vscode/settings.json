@@ -1,0 +1,7 @@
+{
+  "makefile.extensionOutputFolder": "./.vscode",
+  "files.associations": {
+    "quickjs.h": "c",
+    "binderjs.h": "c"
+  }
+}
